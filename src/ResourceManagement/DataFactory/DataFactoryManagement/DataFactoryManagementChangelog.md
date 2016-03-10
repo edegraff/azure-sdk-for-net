@@ -2,6 +2,38 @@
 
 ## Version 4.5.0
 _Release date: 2016.02.24_
+=======
+## Version 
+Release date: 
+
+### Feature Additions
+* Add AllowPolyBase and PolyBaseSettings properties to SqlDWSink.
+    * Enables the use of PolyBase to copy data into SQL Data Warehouse.
+
+## Version 
+Release date: 
+
+### Feature Additions
+
+* The following properties have been added to PipelineProperties: 
+    * PipelineMode
+    * ExpirationTime
+    * Datasets
+
+* The following properties have been added to PipelineRuntimeInfo: 
+    * PipelineState
+
+## Version 
+Release date:
+
+### Feature Additions
+
+* The following optional properties have been added to CopyActivity to to enable tuning of copy performance: 
+    * MaxConcurrentSessions
+    * MaxCloudDataMovementUnits
+
+## Version 
+Release date: 
 
 ### Feature Additions
 * Added list operations for activity window.
@@ -21,14 +53,37 @@ _Release date: 2016.01.28_
 * The following linked service type has been added as data sources and sinks for copy activities: 
     * AzureStorageSasLinkedService
 
+## Version
+Release date:
+
+### Feature Additions
+
+* The following linked service types have been added: 
+    * WebLinkedService
+* The following dataset types have been added: 
+    * WebTableDataset
+* The following copy source types have been added: 	
+    * WebSource
+
 ## Version 4.3.0
+<<<<<<< HEAD
 _Release date: 2016.01.20_
+=======
+Release date: 2016.01.20
+>>>>>>> bowan/4.6.0-rc01
 
 ### Feature Additions
 
 * The following linked service types haven been added as data sources for copy activities: 
     * HdfsLinkedService
     * OnPremisesOdbcLinkedService 
+
+## Version
+_Release date:_ 
+
+### Feature Additions
+
+* Added new StorageFormat type JsonFormat type to define datasets whose data is in JSON format. 
 
 ## Version 4.2.0
 _Release date: 2015.11.10_
