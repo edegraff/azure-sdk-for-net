@@ -84,7 +84,9 @@ namespace DataFactory.Tests.Framework.JsonSamples
           ""blobContainerName"": ""cosmos"",
           ""priority"": """",
           ""vcPercentAllocation"": """",
-          ""scopeScriptParameters"":{'runDate':'test'}
+          ""scopeScriptParameters"": {
+            ""runDate"" : ""test""
+           }
         },
         ""inputs"": [
           {
@@ -114,8 +116,9 @@ namespace DataFactory.Tests.Framework.JsonSamples
     },
     ""pipelineMode"": ""Scheduled""
   }
-
 }
+
+
 ";
     }
 }

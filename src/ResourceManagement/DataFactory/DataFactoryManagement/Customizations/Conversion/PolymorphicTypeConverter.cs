@@ -26,18 +26,7 @@ namespace Microsoft.Azure.Management.DataFactories.Conversion
     {
         public override object ReadJson(JsonReader reader, Type objectType, object existingValue, JsonSerializer serializer)
         {
-            try 
-             { 
                  return this.ReadJsonWrapper(reader, objectType, existingValue, serializer); 
-             } 
-             catch (Exception) 
-             { 
-                 // Suppress any exception during deserialization;  
-                 // we should assume that the service sends back valid JSON,  
-                 // so return null if there is any problem deserializing. 
-                 return null; 
-             } 
-
         }
 
         protected abstract object ReadJsonWrapper(JsonReader reader, Type objectType, object existingValue, JsonSerializer serializer);
