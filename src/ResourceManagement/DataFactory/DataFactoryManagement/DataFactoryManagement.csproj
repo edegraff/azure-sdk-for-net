@@ -14,12 +14,14 @@
   <Import Project="..\..\..\..\tools\Library.Settings.targets" />
   <ItemGroup>
     <Compile Include="Customizations\Conversion\DictionaryConverter.cs" />
+    <Compile Include="Customizations\Conversion\ZeroIfErrorNumberConverter.cs" />
     <Compile Include="Customizations\Models\Activities\AzureMLUpdateResourceActivity.cs" />
     <Compile Include="Customizations\Models\Activities\AzureMLBatchExecutionActivity .cs" />
     <Compile Include="Customizations\Models\Activities\CopySinks\PolyBaseRejectType.cs" />
     <Compile Include="Customizations\Models\Activities\CopySinks\PolyBaseSettings.cs" />
     <Compile Include="Customizations\Models\Activities\CopySources\WebSource.cs" />
     <Compile Include="Customizations\Models\Activities\DataLakeAnalyticsUSQLActivity.cs" />
+    <Compile Include="Customizations\Models\Activities\ScopeJobActivity.cs" />
     <Compile Include="Customizations\Models\Activities\USqlCompilationMode.cs" />
     <Compile Include="Customizations\Models\Activities\CopySinks\AzureDataLakeStoreSink.cs" />
     <Compile Include="Customizations\Models\Activities\CopySinks\CopyBehavior\CopyBehaviorType.cs" />
