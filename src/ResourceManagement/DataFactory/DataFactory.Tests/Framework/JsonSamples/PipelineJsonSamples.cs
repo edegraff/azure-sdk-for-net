@@ -114,6 +114,7 @@ namespace DataFactory.Tests.Framework.JsonSamples
     },
     ""pipelineMode"": ""Scheduled""
   }
+
 }
 ";
     }
